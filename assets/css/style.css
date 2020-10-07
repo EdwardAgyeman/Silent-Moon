@@ -1,0 +1,92 @@
+body {
+    background-color: #7B8CE4;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFECCC;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+#logo {
+    position: relative;
+    top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFECCC;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+nav ul li {
+    display: inline;
+    margin: 1em;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.left {
+    width: 400px;
+    text-align: center;
+    line-height: 1.5;
+    min-width: 400px;
+}
+
+.left>* {
+    margin: 2em 0;
+}
+
+a[role="button"] {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3F414E;
+    background-color: #EBEAEC;
+    padding: 1em 3em;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.right {
+    background: center / contain no-repeat url(../img/circle_bg.png);
+    width: 400px;
+    min-width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.right img {
+    position: absolute;
+}
+
+#clouds1 {
+    top: 15px;
+    right: 20px;
+}
+
+#clouds2 {
+    top: 20px;
+    left: 10px;
+}
+
+#woman {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
